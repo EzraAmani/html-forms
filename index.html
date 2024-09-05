@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en=US">
+    <head>
+        <meta charset="utf-8">
+        <title>Favorite Programming Language Survey</title>
+    </head>
+    <body>
+        <h1>Programming Survey!</h1>
+        <form action="/form-handling-url" method="post">
+          <fieldset>
+            <legend>Add User</legend>
+
+            <div>
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="first_name">
+              </div>
+
+              <div>
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="last_name">
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+              </div>
+
+              <div>
+                <label for="status">Status</label>
+                <select id="status" name="user_status_name">
+                  <option value="Student">Student</option>
+                  <option value="Instructor">Instructor</option>
+                  <option value="Guest">Guest</option>
+                </select>
+              </div>
+              <div>
+                <p>Choose your favorite programming language:</p>
+
+                <input type="radio" id="html" name="language" value="HTML">
+                <label for="html">HTML</label><br>
+
+                <input type="radio" id="css" name="language" value="CSS">
+                <label for="css">CSS</label><br>
+
+                <input type="radio" id="javascript" name="language" value="JavaScript">
+                <label for="javascript">JavaScript</label><br>
+
+              </div>
+
+              <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+              </div>
+
+              <div>
+                <label for="current-date">Current Date:</label>
+                <input type="date" id="current-date" name="current-date">
+
+              </div>
+              <div>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Sign up for newsletter</label>
+
+              </div>
+
+              <div>
+                <input type="checkbox" id="Agree to terms and conditions" name="Agree to terms and conditions">
+                <label for="Agree to terms and conditions">Agree to terms and conditions</label>
+
+              </div>
+
+              <div>
+                <button type="submit">Submit</button>
+              </div>
+          </fieldset>
+
+
+        </form>
+    </body>
+</html>
