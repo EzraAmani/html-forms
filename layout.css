@@ -1,0 +1,52 @@
+/* Example layout styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #bacdff;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 0px 0;
+    box-sizing: border-box;
+}
+
+button, input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 0px;
+}
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    display: block; /* Ensures the label is on its own line */
+    margin-top: 10px; /* Adds space above the label */
+}
+
+.form-container {
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the container horizontally */
+    text-align: center; /* Centers the text within the container */
+}
+
+h1 {
+    margin-bottom: 10px; /* Adds space between the heading and the form */
+    text-align: center;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 0px; /* Add some spacing between the label and the input */
+}
